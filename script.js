@@ -230,7 +230,7 @@ function roundedRectangle(context, x, y)
 	y *= context.sqrSize
     w = context.sqrSize
     h = w
-    var mx = x + w / 2
+    var mx = x + w / 2;
     var my = y + h / 2
     context.beginPath()
     context.strokeStyle='rgb(' + (x*120/255) + ',' + (y*120/255) + ',' + (1000 - (x + y)*240/255) + ')'
